@@ -17,7 +17,7 @@ if __name__ == '__main__':
        Example: v=[1,4,9,16], output=[3,5,7]
     """
     v=eval(input())
-    output = "" # Put your line here (my solution: 23 chars)
+    output = "".join(str([a2-a1 for a1,a2 in zip(v,v[1:])])) # Put your line here (my solution: 23 chars)
     print(output)
     
     """
