@@ -50,8 +50,8 @@ if __name__ == '__main__':
        Example: u=[1,2,3,4,5], v=[1,2,0,0,5], output=5 (= the sqrt of (0^2+0^2+3^2+4^2+0^2))
     """
     u,v = map(eval, input().split())
-    from math import sqrt 
-    output = math.floor(sqrt(sum((a1-a2)**2 for a1,a2 in zip(u,v)))) # Put your line here (my solution: 40 chars)
+    from math import sqrt, floor
+    output = floor(sqrt(sum((a1-a2)**2 for a1,a2 in zip(u,v)))) # Put your line here (my solution: 40 chars)
     print(output)
 
     """
