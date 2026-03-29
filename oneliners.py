@@ -59,7 +59,7 @@ if __name__ == '__main__':
        Example: m=[[1,2],[3,4],[5,6]], output=[1,2,3,4,5,6]
     """
     m=eval(input())
-    output = [x for x in row for row in m] # Put your line here (my solution: 9 chars)
+    output = [x for row in m for x in row] # Put your line here (my solution: 9 chars)
     print(output)
 
     """
