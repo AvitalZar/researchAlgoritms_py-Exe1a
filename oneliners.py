@@ -51,7 +51,7 @@ if __name__ == '__main__':
     """
     u,v = map(eval, input().split())
     from math import sqrt 
-    output = math.sqrt(sum((a1-a2)**2 for a1,a2 in zip(u,v))) # Put your line here (my solution: 40 chars)
+    output = sqrt(sum((a1-a2)**2 for a1,a2 in zip(u,v))) # Put your line here (my solution: 40 chars)
     print(output)
 
     """
